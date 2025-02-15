@@ -25,7 +25,7 @@ Once your ESP32 C5 is flashed and booted, it will host a wifi AP by the name of 
   <img src="https://github.com/user-attachments/assets/746b9e20-be74-4cf0-a8e9-8b30ad27c90a" />
 </p>
 
-By default, the password is is `yourpassword` if you wish to change this, you can modify the AP name and AP password on lines `15` & `16`
+By default, the password is `yourpassword` if you wish to change this, you can modify the AP name and AP password on lines `15` & `16`
 
 
 <p align="center">
