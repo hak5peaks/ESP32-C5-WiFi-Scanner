@@ -18,6 +18,8 @@ This firmware is a simple wifi scanner built using ESP-IDF, made for the new ESP
 4. Build the firmware `idf.py build`
 5. Flash Firmware to C5 `idf.py flash` 
 
+if you experience issues during this process, try `idf.py fullclean` and restart. 
+
 
 ## Post flash instructions
 Once your ESP32 C5 is flashed and booted, it will host a wifi AP by the name of `ESP32C5_AP` on the 5ghz band, specifically on channel 40. 
