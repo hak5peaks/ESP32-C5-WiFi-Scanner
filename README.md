@@ -40,4 +40,5 @@ You can read more about the hardware at: https://offensiveappliances.com/researc
 
 ## NOTICE 
 
-This firmware was written purely as an example, use at your own risk and responsibility, their is no guarantee for support. 
+This firmware was written purely as an example, use at your own risk and responsibility, there is no guarantee for support. 
+
