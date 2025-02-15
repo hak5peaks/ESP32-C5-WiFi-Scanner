@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        "esp32c5.c" 
+        "web_server.c" 
+        "wifi_scan.c" 
+        "index_content.c"
+    INCLUDE_DIRS 
+        "."
+)
