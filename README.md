@@ -13,7 +13,7 @@ This firmware is a simple wifi scanner built using ESP-IDF, made for the new ESP
 
 ## Build and Flash Instructions 
 1. Create new esp-idf project 
-2. Select esp32 c5 as target, requires preview verison `idf.py --preview esp32c5`
+2. Select esp32 c5 as target, requires preview verison `idf.py --preview set-target esp32c5`
 3. Place firmware files in the `/main` directory of your project. (Replace the CMakeLists file that is auto generated with new one)
 4. Build the firmware `idf.py build`
 5. Flash Firmware to C5 `idf.py flash` 
