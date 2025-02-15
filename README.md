@@ -9,7 +9,7 @@ This firmware is a simple wifi scanner built using ESP-IDF, made for the new ESP
 
 ## Requriments 
 - ESP-IDF v5.4 or newer
-- ESP32 C5
+- ESP32 C5 (Designed and tested on ESP32C5 revision v0.1)
 
 ## Build and Flash Instructions 
 1. Create new esp-idf project 
