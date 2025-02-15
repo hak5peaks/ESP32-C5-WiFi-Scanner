@@ -36,3 +36,8 @@ Once connected to the ESP32 C5s ap, simply open a web browser and navigate to `1
 ## Read more about hardware 
 
 You can read more about the hardware at: https://offensiveappliances.com/research/esp32c5/
+
+
+## NOTICE 
+
+This firmware was written purely as an example, use at your own risk and responsibility, their is no guarantee for support. 
