@@ -13,8 +13,15 @@ static char scan_results_json[MAX_JSON_SIZE]; // Buffer for JSON results
 static const uint8_t dual_band_channels[] = {
     // 2.4 GHz channels: 1-13 (commonly used)
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
-    // 5 GHz channels: 36, 40, 44, 48, 149, 153, 157, 161, 165
-    36, 40, 44, 48, 149, 153, 157, 161, 165
+    // 5 GHz channels
+    // UNII-1 (36-48)
+    36, 40, 44, 48,
+    // UNII-2 (52-64)
+    52, 56, 60, 64,
+    // UNII-2 Extended (100-144)
+    100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144,
+    // UNII-3 (149-165)
+    149, 153, 157, 161, 165
 };
 
 // Helper function to get the security type from the encryption mode
@@ -42,7 +49,7 @@ const char* get_band(uint8_t channel) {
     if (channel >= 1 && channel <= 13) {
         return "2.4ghz";
     }
-    if ((channel >= 36 && channel <= 48) || (channel >= 149 && channel <= 165)) {
+    if ((channel >= 36 && channel <= 144) || (channel >= 149 && channel <= 165)) {
         return "5ghz";
     }
     return "Unknown Band";
