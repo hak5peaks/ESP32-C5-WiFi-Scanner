@@ -36,11 +36,6 @@ By default, the password is `yourpassword` if you wish to change this, you can m
 
 Once connected to the ESP32 C5s ap, simply open a web browser and navigate to `192.168.4.1` and click/touch `Wifi Recon`, the section will drop down revealing the graph and wifi information, this displayed information is updated every 8 seconds. 
 
-## Read more about hardware 
-
-You can read more about the hardware at: https://offensiveappliances.com/research/esp32c5/
-
-
 ## NOTICE 
 
 This firmware was written purely as an example, use at your own risk and responsibility, there is no guarantee for support. 
